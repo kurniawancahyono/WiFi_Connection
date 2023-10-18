@@ -1,3 +1,5 @@
+# Program pertama kali masuk ke laman WiFi
+
 import subprocess
 
 output = subprocess.check_output("netsh wlan show interfaces")
